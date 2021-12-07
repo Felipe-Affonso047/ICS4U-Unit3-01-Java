@@ -28,5 +28,5 @@ public class MrCoxallStack {
     /**
     * Stack vareable.
     */
-    ArrayList<Integer> stack = new ArrayList<Integer>();
+    private ArrayList<Integer> stack = new ArrayList<Integer>();
 }
