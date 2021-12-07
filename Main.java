@@ -6,9 +6,17 @@
 * @since   2021-12-07
 */
 
-import java.util.Random;
 
 final class Main {
+    /**
+    * Constant.
+    */
+    public static final int TEN = 10;
+    /**
+    * Constant.
+    */
+    public static final int TWENTY_SEVEN = 27;
+
     private Main() {
         // Prevent instantiation
         // Optional: throw an exception e.g. AssertionError
@@ -23,12 +31,12 @@ final class Main {
         stack.showStack();
 
         System.out.println("Add 10:");
-        stack.push(10);
+        stack.push(TEN);
 
         stack.showStack();
 
         System.out.println("Add 27:");
-        stack.push(27);
+        stack.push(TWENTY_SEVEN);
 
         stack.showStack();
 
