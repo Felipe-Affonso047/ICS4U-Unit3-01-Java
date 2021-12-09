@@ -15,14 +15,16 @@ public class MrCoxallStack {
     * @param pushValue
     */
     public void push(final int pushValue) {
-        stack.add(pushValue);
+        stack.add(0, pushValue);
     }
 
     /**
     * Prints stack.
     */
     public void showStack() {
-        System.out.println(stack);
+        for (int counter = 0; counter < stack.size(); counter++) {
+            System.out.println(stack.get(counter));
+        }
     }
 
     /**
