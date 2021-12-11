@@ -10,6 +10,11 @@ import java.util.ArrayList;
 
 public class MrCoxallStack {
     /**
+    * Stack vareable.
+    */
+    private ArrayList<Integer> stack = new ArrayList<Integer>();
+
+    /**
     * Function adds value to stack.
     *
     * @param pushValue
@@ -26,9 +31,4 @@ public class MrCoxallStack {
             System.out.println(stack.get(counter));
         }
     }
-
-    /**
-    * Stack vareable.
-    */
-    private ArrayList<Integer> stack = new ArrayList<Integer>();
 }
